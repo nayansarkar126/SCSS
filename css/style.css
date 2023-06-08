@@ -1,0 +1,432 @@
+*{
+  font-family: 'Poppins', sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a{
+  text-decoration: none;
+}
+ul,ol{
+  list-style-type: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+  line-height: 0.8;
+}
+
+nav{
+  background-color: #1C1E53;
+  /* position: absolute !important; */
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 16px 0;
+}
+#nav .nav-item .nav-link{
+  font-size: 16px;
+  color: #BBBBCB;
+  font-weight: 500;
+  line-height: 28px;
+  font-family: 'Poppins', sans-serif;
+  padding: 0;
+}
+#nav .nav-item .nav-link:hover{
+  color: #fff;
+  transition: all linear 0.3s;
+}
+#nav .navbar-nav{
+  column-gap: 35px;
+}
+#nav .nav_btn{
+  font-size: 16px;
+  color: #fff;
+  font-weight: 500;
+  line-height: 28px;
+  text-transform: capitalize;
+  border: 2px solid rgba(244, 246, 252, 0.2);
+  border-radius: 41px;
+  padding: 16px 48px;
+  margin-left: 48px;
+}
+
+#pricing {
+  margin: 126px 0;
+}
+#pricing .pricing_heading {
+  text-align: center;
+}
+#pricing .pricing_heading h2 {
+  font-size: 48px;
+  line-height: 64px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: #282938;
+}
+#pricing .pricing_heading p {
+  width: 562px;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  color: #282938;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 16px;
+  margin-bottom: 64px;
+}
+#pricing .pricing_content {
+  width: 406px;
+  height: 745px;
+  background-color: #F4F6FC;
+  padding: 64px 77px 62px 48px;
+  border-radius: 12px;
+  transition: all linear 0.3s;
+}
+#pricing .pricing_content:hover {
+  background-color: #1C1E53;
+}
+#pricing .pricing_content:hover h4 {
+  color: #fff;
+}
+#pricing .pricing_content:hover p {
+  color: #fff;
+}
+#pricing .pricing_content:hover p {
+  color: #fff;
+}
+#pricing .pricing_content:hover .pricing_inner_wrapper span {
+  color: #fff;
+}
+#pricing .pricing_content:hover .pricing_item_inner .pricing_content_dw {
+  color: #fff;
+}
+#pricing .pricing_content:hover .pricing_item_inner span {
+  color: #FCD980;
+}
+#pricing .pricing_content:hover .pricing_cmn_btn button {
+  background-color: #FCD980;
+  color: #282938;
+  border: none;
+}
+#pricing .pricing_content .pricing_item_inner {
+  display: flex;
+  align-items: center;
+  margin-left: -5px;
+}
+#pricing .pricing_content .pricing_item_inner .pricing_content_dw {
+  font-size: 38px;
+  line-height: 56px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: #282938;
+}
+#pricing .pricing_content .pricing_item_inner span {
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  color: #2405F2;
+  text-transform: capitalize;
+  margin-left: 8px;
+}
+#pricing .pricing_content h4 {
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  color: #282938;
+  margin-top: 20px;
+  margin-bottom: 6px;
+  text-transform: capitalize;
+}
+#pricing .pricing_content p {
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  color: #282938;
+  margin-bottom: 78px;
+}
+#pricing .pricing_content .pricing_content_pera {
+  margin-bottom: 50px;
+}
+#pricing .pricing_content .pricing_inner_wrapper {
+  margin-bottom: 20px;
+}
+#pricing .pricing_content .pricing_inner_wrapper span {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  font-family: "Poppins", sans-serif;
+  color: #282938;
+}
+#pricing .pricing_content .pricing_cmn_btn {
+  text-align: center;
+}
+#pricing .pricing_content .pricing_cmn_btn button {
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: 600;
+  font-family: "Manrope", sans-serif;
+  color: #F4F6FC;
+  border-radius: 41px;
+  padding: 16px 77px;
+  background-color: #282938;
+  margin-top: 79px;
+  border: none;
+}
+
+/* ==============FAQ================= */
+#faq{
+  height: 537px;
+  padding: 128px;
+  margin-bottom: 128px;
+}
+#faq .faq_one h3{
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 56px;
+  text-align: left;
+  margin-bottom: 16px;
+  padding: 0 92px 0 0;
+}   
+
+#faq .faq_one a{
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32px;
+  text-align: center;
+}
+#faq .accordion .faq_number{
+      font-size: 24px;
+      font-weight: 500;
+      line-height: 36px;
+      text-align: left;
+      margin-right: 20px;
+      color: #2405F2;
+}
+#faq .accordion h6{
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+  text-align: left;
+}
+#faq .accordion p{
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32px;
+  text-align: left;
+  padding: 0 163px 0 53px;
+}
+
+.accordion-button::after {
+  flex-shrink: 0;
+  width: 1.25rem;
+  height: 1.25rem;
+  margin-left: auto;
+  content: "";
+  background-repeat: no-repeat;
+  background-size: 1.25rem;
+  transition: transform .2s ease-in-out;
+}
+.accordion-button:not(.collapsed)::after {
+  transform: rotate(45deg);
+}
+
+/* ==================== Contact Form Started Here ================================= */
+.contactWrapper{
+  background-color: #1C1E53;
+}
+.contactImageBox{
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.contactImage{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.contactImageBoxOverlay{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(28, 30, 83, 0.5);
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 96px 72px 96px 96px;
+}
+.contactOverlayTitle{
+  font-family: 'Poppins', sans-serif;
+  font-size: 54px;
+  line-height: 74px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 1);
+  margin-bottom: 25px;
+}
+.contactOverlayPara{
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 1);
+}
+.contactFormMain{
+  padding: 96px 96px 48px 96px;
+
+}
+.formHead{
+  font-family: 'Poppins', sans-serif;
+  font-size: 32px;
+  line-height: 48px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 1);
+  margin-bottom: 16px;
+}
+.formPara{
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 500;
+  color: rgba(244, 246, 252, 1);
+}
+
+.contactBg{
+  background-color: transparent;
+  color: #f5deb3;
+  padding: 18px 0 18px 32px;
+  border: 1.5px solid rgba(255, 255, 255, 0.05);
+}
+.btnBgColor{
+  text-transform: capitalize;
+  border: 0;
+  transition: all linear 0.3s;
+}
+.btnBgColor:hover{
+  color: #2024fa;
+  background-color: #f5d443;
+  font-weight: 600;
+}
+.contactBg::placeholder{
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 400;
+  color: rgba(244, 246, 252, 0.50);
+}
+
+#contact .buttons{
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 28px;
+  align-items: stretch;
+}
+#contact .bannerBtnPrice{
+  text-align: center;
+}
+/* =====Footer====== */
+#footer{
+  height: 397px;
+  background-color: #1C1E53;
+  ;
+  margin-top: 256px;
+}
+#footer .foot_logo{
+  margin-top: 100px;
+}
+#footer p{
+  width: 399px;
+  padding-top: 20px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  color: #FFFFFF;
+  opacity: 0.8;
+}
+#footer .extra_contact{
+ height: 95px;
+ width: 571px;
+ background-color: #FCD980;
+ margin-top: 86px;
+ display: flex;
+ align-items: center;
+}
+#footer .extra_contact .extra_contain h6{
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32px;
+  width: 108px;
+}
+#footer .extra_contact .extra_contain p{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 0px;
+  color: #000;
+}
+
+#footer .extra_contact .extra_contain2 h6{
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32px;
+  padding-left: 102px;
+}
+#footer .extra_contact .extra_contain2 p{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 0px;
+  color: #000;
+  padding-left: 100px;
+}
+#footer .talk{
+  margin-top: 100px;
+}
+#footer .talk h2{
+  color: #fff;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 64px;
+}
+#footer .talk p{
+  color: #F4F6FC;
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 0.8;
+}
+#footer .icon{
+  color: #fff;
+}
+#footer .icon i{
+  padding-right: 26px;
+}
+
+#footer .copyright{
+  height: 92px;
+  background-color: #fff;
+}
+#footer .copyright p{
+  color: #282938;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  padding-top: 32px;
+}
+#footer .footer_menu{
+  color: #fff;
+  margin-top: 32px;
+}
+#footer .footer_menu ul{
+  display: flex;
+  column-gap: 34px;
+
+}
+#footer .footer_menu ul li a{
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  color: #282938;
+  transition: all linear 0.3s;
+}
+#footer .footer_menu ul li a:hover{
+  color: #28b8d8;
+}
